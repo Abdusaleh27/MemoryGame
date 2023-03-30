@@ -1,0 +1,54 @@
+.game div {
+  border: 1px solid black;
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  display: inline-block;
+  transition: 1.5s;
+  background-color: rgb(84, 48, 167);
+}
+.game {
+  margin: auto;
+  width: 60%;
+  background-color: rgb(45, 9, 55);
+  border-radius: 15px;
+  align-items: center;
+  position: relative;
+}
+.display {
+  position: absolute;
+  display: grid;
+}
+.title {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.display * {
+  margin-bottom: 15px;
+  background-color: rgb(45, 9, 55);
+  color: rgb(134, 116, 94);
+  border-radius: 5px;
+  border-color: rgb(154, 102, 39);
+}
+.display *:hover {
+  border-color: rgb(43, 37, 30);
+}
+body {
+  background-color: rgb(81, 55, 141);
+}
+.disableclick {
+  pointer-events: none;
+}
+.endGame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  transform: translate(-50%, -70%);
+  text-align: center;
+  color: rgb(71, 16, 9);
+  background-color: rgba(128, 105, 139, 0.7);
+  border-radius: 5px;
+  transition: 2s;
+}
